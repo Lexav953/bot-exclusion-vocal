@@ -15,7 +15,7 @@ Ce projet est un bot Discord permettant de gérer automatiquement un système de
 ## 🚀 Installation
 
 1. Clonez le dépôt :
-
+https://github.com/Lexav953/bot-exclusion-vocal
 
 2. Installez les dépendances :
 pip install -r requirements.txt
