@@ -41,7 +41,6 @@ Ce projet est un bot Discord permettant de gérer automatiquement un système de
 
 ---
 
-
 ## 🚀 Installation
 
 1. Clonez le dépôt :
@@ -50,38 +49,28 @@ https://github.com/Lexav953/bot-exclusion-vocal/
 2. Installez les dépendances :
 pip install -r requirements.txt
 
-
 3. Créez un fichier `.env` à partir de `.env.example` :
-DISCORD_TOKEN=VOTRE_TOKEN
 
-ID_SALON_TEXTE=ID_DU_SALON_TEXTE
-
-# Vocal PAUSE (1 seul)
-ID_VOCAL_PAUSE=ID_DU_VOCAL_PAUSE
-
-# Liste des vocaux exemptés EMS (séparés par virgule)
-ID_VOCAL_EXEMPTE_EMS=ID1,ID2,ID3
-
-# Utilisateur exempté (optionnel)
-ID_UTILISATEUR_EXEMPTE=0
-
+DISCORD_TOKEN=VOTRE_TOKEN  
+ID_SALON_TEXTE=ID_DU_SALON_TEXTE  
+ID_VOCAL_PAUSE=ID_DU_VOCAL_PAUSE  
+ID_VOCAL_EXEMPTE_EMS=ID1,ID2,ID3  
+ID_UTILISATEUR_EXEMPTE=0  
 
 4. Lancez le bot :
 python votre_bot.py
-
 
 ---
 
 ## 📂 Structure du projet
 
 /
-├── .env
-├── .gitignore
-├── README.md
-├── env.example
-├── Requirements.txt 
-└── Votre_bot.py 
-
+├── .env  
+├── .gitignore  
+├── README.md  
+├── env.example  
+├── Requirements.txt  
+└── Votre_bot.py  
 
 ---
 
@@ -90,6 +79,3 @@ python votre_bot.py
 - Python 3.10+
 - discord.py
 - python-dotenv
-
----
-
